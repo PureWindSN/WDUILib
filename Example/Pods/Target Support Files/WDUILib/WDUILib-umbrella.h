@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WDEmptyTableView.h"
 
 FOUNDATION_EXPORT double WDUILibVersionNumber;
 FOUNDATION_EXPORT const unsigned char WDUILibVersionString[];

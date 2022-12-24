@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LNe-Ga-29o" customClass="WDEmptyTableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz1-YI-jeT">
+                    <rect key="frame" x="66" y="408" width="243" height="44"/>
+                    <color key="backgroundColor" red="0.0078431372550000003" green="0.43137254899999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="byl-B9-Db7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="14"/>
+                    <state key="normal" title="重新加载">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Common_Empty" translatesAutoresizingMaskIntoConstraints="NO" id="yPM-gy-cl6">
+                    <rect key="frame" x="117.66666666666669" y="213" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="LBl-W9-9Xs"/>
+                        <constraint firstAttribute="width" secondItem="yPM-gy-cl6" secondAttribute="height" id="NUF-lK-lt7"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现在没有内容" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMU-hi-hv3">
+                    <rect key="frame" x="139.66666666666666" y="369" width="96" height="19"/>
+                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="16"/>
+                    <color key="textColor" red="0.039215686270000001" green="0.14117647059999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Gaw-iT-v02"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tMU-hi-hv3" firstAttribute="centerX" secondItem="yPM-gy-cl6" secondAttribute="centerX" id="A6u-LZ-Y0N"/>
+                <constraint firstItem="vz1-YI-jeT" firstAttribute="leading" secondItem="Gaw-iT-v02" secondAttribute="leading" constant="66" id="FUn-PP-BGO"/>
+                <constraint firstItem="yPM-gy-cl6" firstAttribute="centerX" secondItem="Gaw-iT-v02" secondAttribute="centerX" id="Gt1-UK-Ce5"/>
+                <constraint firstItem="vz1-YI-jeT" firstAttribute="top" secondItem="tMU-hi-hv3" secondAttribute="bottom" constant="20" id="HfB-Mv-iee"/>
+                <constraint firstItem="yPM-gy-cl6" firstAttribute="width" secondItem="yPM-gy-cl6" secondAttribute="height" id="JpN-oR-bxk"/>
+                <constraint firstItem="tMU-hi-hv3" firstAttribute="top" secondItem="yPM-gy-cl6" secondAttribute="bottom" constant="16" id="VdG-PG-0iV"/>
+                <constraint firstItem="vz1-YI-jeT" firstAttribute="centerX" secondItem="yPM-gy-cl6" secondAttribute="centerX" id="vOl-RN-qBN"/>
+                <constraint firstItem="yPM-gy-cl6" firstAttribute="centerY" secondItem="Gaw-iT-v02" secondAttribute="centerY" constant="-80" id="wK3-QU-JOJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImgView" destination="yPM-gy-cl6" id="lpA-HE-TFa"/>
+                <outlet property="reloadBtn" destination="vz1-YI-jeT" id="FyX-pJ-eKL"/>
+                <outlet property="titleLbl" destination="tMU-hi-hv3" id="CXg-mo-JBY"/>
+            </connections>
+            <point key="canvasLocation" x="136.64122137404578" y="-83.098591549295776"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Common_Empty" width="130" height="130"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

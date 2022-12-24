@@ -10,7 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^WDEmptyTableViewBlock)(void);
+
 @interface WDEmptyTableView : UIView
+
+- (void)configImage:(NSString *)image title:(NSString *)title btnTitle:(NSString *)btnTitle action:(WDEmptyTableViewBlock)action;
 
 @end
 
