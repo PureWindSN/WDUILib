@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127D843C788C82E252B1F60AF302AF2F /* WDEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F130146B6A71518F51FC442857EFC4CB /* WDEmptyTableView.m */; };
 		19463B4755AE2509633FC0297480828E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E9F281A21D2151AF9F4DF96A9B6A4B /* WDPrivateRepoLinkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECCDB1BE55E86ECF8F20749F76914D7 /* WDPrivateRepoLinkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24AD5E4742C699DDEDB08EF66FEAB6F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		26D5F8E75B6C31BD00AC0A6FEACB6295 /* WDPrivateRepoLinkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279CC589DE579B19CAE18084C898BC4 /* WDPrivateRepoLinkTest.m */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -17,8 +19,8 @@
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3D4342E36AAF32063F9406BA56E935BB /* Pods-WDUILib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4364242D05F53697A69DCAF05130F3A /* Pods-WDUILib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		511CFF460F193126EA831F8BBD53362E /* WDUILib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60116AD8DDF221D1F0445183A82DA3D4 /* WDUILib-dummy.m */; };
-		529E00109AB28F8CA6AFFFA0CD7FAAD8 /* WDEmptyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5535AE0738474CC12BE63789FDCC1CB9 /* WDEmptyTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498BBDC5A9FFC9678B64636493A456C7 /* WDUILib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFB7E4721043F7EFEBD7EFA275F0240 /* WDUILib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA1CDD99BECAE61DD1761246D8C8B17 /* WDUILib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5039A2245F96103190287342C0AA705B /* WDUILib-dummy.m */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,38 +28,40 @@
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		80017BC95980681D768FA7EA1BC57F47 /* Pods-WDUILib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4BCE4B7EC12497C9493665D059D9B4 /* Pods-WDUILib_Tests-dummy.m */; };
+		83A1DC522C291236012E7F0A7754BC64 /* WDEmptyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD0D76F23A465176F06886DCE429889 /* WDEmptyTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		92845576389451AA4DC23AC3FFC3EBC4 /* WDUILib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1F12E1DF363EFE040C8E19C64B94D7 /* WDUILib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A55B970230427BF05AF936FFE248EFF5 /* WDEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A7844230BA75589244636FEDC2F5D /* WDEmptyTableView.m */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		BE0D54E5DDA915370150F8D4CA69566A /* Pods-WDUILib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAB9D7FE9BB79F136A0A22C7973E984 /* Pods-WDUILib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		CEE8A84122FF0C3355BAD02C4C854C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		DD95FCFD0712E295EEE3E98D3E3A034D /* WDLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DE329548E9477B811FC1FF9CFFA60 /* WDLinker.m */; };
+		E2A210327B078F9020E8A5E920CD37B4 /* WDEmptyTableView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F1BAC5823AF43722ACCDF9913664047D /* WDEmptyTableView.xib */; };
 		E6C7403BA7C3A9FB65BB46C439293310 /* Pods-WDUILib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53933C284C350A6DD1E5A1047304A090 /* Pods-WDUILib_Example-dummy.m */; };
-		F5B4C999AAA1E4912C5F1A4366F749BF /* WDEmptyTableView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F73BD2F54466F80C2BE54D87BE77D9B3 /* WDEmptyTableView.xib */; };
-		FB5AE8808E687B7B6867B224217372FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		E7DC3FE0EC1D350A0E2856FF9DB3C4DE /* WDLinker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9493E10860609F265A68572D90CDDD17 /* WDLinker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0F7A28952FB227BE3CAB44116C8C043A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73722B28E682F3F4F9D82C4007641718;
-			remoteInfo = WDUILib;
-		};
-		6A03A75267D83263CA40E7B0552DAF9D /* PBXContainerItemProxy */ = {
+		0754399B84C89AB2DED3F980006E6B35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		9B4114090FE40644787F484744CE100A /* PBXContainerItemProxy */ = {
+		43626A54AD8FFF6D8BED792AFEA3F823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73722B28E682F3F4F9D82C4007641718;
+			remoteInfo = WDUILib;
+		};
+		F13F4DAF0B90F0A404ED5BD62BBECEE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -69,47 +73,51 @@
 /* Begin PBXFileReference section */
 		00FFBD58DDDC53E411844F4889A0C63F /* Pods-WDUILib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WDUILib_Tests"; path = Pods_WDUILib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01559F0CF54AFBAA1676E6C4AF2C1D3B /* WDUILib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WDUILib; path = WDUILib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02AE97FAD590ABB42243FB9C6A3596D6 /* WDUILib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDUILib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		05F9BD1F4EBA20B1F0089CF0B0F97BAC /* WDUILib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDUILib.modulemap; sourceTree = "<group>"; };
-		0994831F715C60753D561A3E8F4769B0 /* WDUILib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDUILib.release.xcconfig; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		104D69B6D57B169DF5A920D929992FD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		16BD0CBEFDA9361FDBD74E5E3C1C103E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2D4BCE4B7EC12497C9493665D059D9B4 /* Pods-WDUILib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDUILib_Tests-dummy.m"; sourceTree = "<group>"; };
+		3279CC589DE579B19CAE18084C898BC4 /* WDPrivateRepoLinkTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDPrivateRepoLinkTest.m; path = WDUILib/Classes/WDPrivateRepoLinkTest.m; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		32CC8597F73FBADC1E016A295F67F65F /* Pods-WDUILib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDUILib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E4DE329548E9477B811FC1FF9CFFA60 /* WDLinker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDLinker.m; path = WDUILib/Classes/WDLinker.m; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		42D995BF986887A30BBD4729B7B589D2 /* WDUILib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDUILib.modulemap; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		5039A2245F96103190287342C0AA705B /* WDUILib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDUILib-dummy.m"; sourceTree = "<group>"; };
+		504FF8F26BC3B28588322231C766B28F /* WDUILib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDUILib.debug.xcconfig; sourceTree = "<group>"; };
 		53933C284C350A6DD1E5A1047304A090 /* Pods-WDUILib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDUILib_Example-dummy.m"; sourceTree = "<group>"; };
-		5535AE0738474CC12BE63789FDCC1CB9 /* WDEmptyTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDEmptyTableView.h; path = WDUILib/Classes/WDEmptyTableView.h; sourceTree = "<group>"; };
 		55DD52A5BB572B25FB10DEE419746D26 /* Pods-WDUILib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDUILib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		59020DE44189F74356A120126D01758C /* Pods-WDUILib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDUILib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60116AD8DDF221D1F0445183A82DA3D4 /* WDUILib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDUILib-dummy.m"; sourceTree = "<group>"; };
+		5ECCDB1BE55E86ECF8F20749F76914D7 /* WDPrivateRepoLinkTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDPrivateRepoLinkTest.h; path = WDUILib/Classes/WDPrivateRepoLinkTest.h; sourceTree = "<group>"; };
+		6088CA4E99B261F12D84830F9021E9AB /* WDUILib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDUILib.release.xcconfig; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		7B1F12E1DF363EFE040C8E19C64B94D7 /* WDUILib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDUILib-umbrella.h"; sourceTree = "<group>"; };
+		6B5B6C4DE76F58B2078E44B721813DA7 /* WDUILib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDUILib-Info.plist"; sourceTree = "<group>"; };
+		6FD0D76F23A465176F06886DCE429889 /* WDEmptyTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDEmptyTableView.h; path = WDUILib/Classes/WDEmptyTableView.h; sourceTree = "<group>"; };
+		712F79141F8AAAB1DB44919032B2A82B /* WDUILib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDUILib-prefix.pch"; sourceTree = "<group>"; };
+		7C5A7844230BA75589244636FEDC2F5D /* WDEmptyTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDEmptyTableView.m; path = WDUILib/Classes/WDEmptyTableView.m; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8AFB7E4721043F7EFEBD7EFA275F0240 /* WDUILib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDUILib-umbrella.h"; sourceTree = "<group>"; };
 		8C23965BFBC54A930323746DD2E841B2 /* Pods-WDUILib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDUILib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		9493E10860609F265A68572D90CDDD17 /* WDLinker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WDLinker.h; path = WDUILib/Classes/WDLinker.h; sourceTree = "<group>"; };
 		94AB71C4E1A675D6C01655B35B61B6A0 /* Pods-WDUILib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDUILib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		97B269E3141454D1A2F315672B8BA65F /* WDUILib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDUILib.debug.xcconfig; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9C12A6ACBEC82A6D19DAB77AEC067F41 /* Pods-WDUILib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDUILib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1B4B1170DF8312D86C076987963E8E9 /* WDUILib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WDUILib-Info.plist"; sourceTree = "<group>"; };
 		A4364242D05F53697A69DCAF05130F3A /* Pods-WDUILib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDUILib_Example-umbrella.h"; sourceTree = "<group>"; };
 		AAAB9D7FE9BB79F136A0A22C7973E984 /* Pods-WDUILib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WDUILib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AB6EB935A39294F66095D3198A2CFD4C /* WDUILib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDUILib-prefix.pch"; sourceTree = "<group>"; };
 		ABE1A3AF5AF32FF56B2CB6FE917B8D7C /* Pods-WDUILib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDUILib_Example-Info.plist"; sourceTree = "<group>"; };
 		AD8F439ABDE81A9E7B9CE7BF22441463 /* Pods-WDUILib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDUILib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -121,30 +129,30 @@
 		D7A202BAE55DE22DA48A9B54CFC5A975 /* Pods-WDUILib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDUILib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		D8CBFFD071B31454691BB6D524C589AE /* Pods-WDUILib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WDUILib_Tests.modulemap"; sourceTree = "<group>"; };
-		D9ACB90DC461DB73E4301A5BD7A4E790 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E3539106D949964F5E9DC825AF175D58 /* Pods-WDUILib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDUILib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F014C9926EAE9567B974C0630AC239A6 /* Pods-WDUILib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDUILib_Tests-Info.plist"; sourceTree = "<group>"; };
-		F130146B6A71518F51FC442857EFC4CB /* WDEmptyTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WDEmptyTableView.m; path = WDUILib/Classes/WDEmptyTableView.m; sourceTree = "<group>"; };
+		F1BAC5823AF43722ACCDF9913664047D /* WDEmptyTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WDEmptyTableView.xib; path = WDUILib/Classes/WDEmptyTableView.xib; sourceTree = "<group>"; };
 		F3A546FDFE511363858153CD6F03AA90 /* Pods-WDUILib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WDUILib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F73BD2F54466F80C2BE54D87BE77D9B3 /* WDEmptyTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WDEmptyTableView.xib; path = WDUILib/Classes/WDEmptyTableView.xib; sourceTree = "<group>"; };
+		FC2F218EB79FCF617216A9B49974176E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE2D6581275397E60B29504C456B5C7C /* WDUILib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDUILib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23ED9ABFF97B0060FF9C9E65A8609252 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB5AE8808E687B7B6867B224217372FE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B7A42918B6C6687237E469BAE56738E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				19463B4755AE2509633FC0297480828E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6487E1A50E3154831F0D4E3E59A0EC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AD5E4742C699DDEDB08EF66FEAB6F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,14 +178,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BC90DDD7A3104F4E859AD54583B4F1A /* Pod */ = {
+		13A196E94C8002302F86EE64416BAA64 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				104D69B6D57B169DF5A920D929992FD2 /* LICENSE */,
-				D9ACB90DC461DB73E4301A5BD7A4E790 /* README.md */,
-				02AE97FAD590ABB42243FB9C6A3596D6 /* WDUILib.podspec */,
+				42D995BF986887A30BBD4729B7B589D2 /* WDUILib.modulemap */,
+				5039A2245F96103190287342C0AA705B /* WDUILib-dummy.m */,
+				6B5B6C4DE76F58B2078E44B721813DA7 /* WDUILib-Info.plist */,
+				712F79141F8AAAB1DB44919032B2A82B /* WDUILib-prefix.pch */,
+				8AFB7E4721043F7EFEBD7EFA275F0240 /* WDUILib-umbrella.h */,
+				504FF8F26BC3B28588322231C766B28F /* WDUILib.debug.xcconfig */,
+				6088CA4E99B261F12D84830F9021E9AB /* WDUILib.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WDUILib";
 			sourceTree = "<group>";
 		};
 		433F1A2757618F39AEE246FCC6C04E9E /* Pods-WDUILib_Example */ = {
@@ -280,24 +293,21 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C2A00EE9905D74A43DBC9585E99A7DCE /* WDUILib */ = {
+		C624448802B0F98EBF1D883F79A67333 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5535AE0738474CC12BE63789FDCC1CB9 /* WDEmptyTableView.h */,
-				F130146B6A71518F51FC442857EFC4CB /* WDEmptyTableView.m */,
-				F73BD2F54466F80C2BE54D87BE77D9B3 /* WDEmptyTableView.xib */,
-				3BC90DDD7A3104F4E859AD54583B4F1A /* Pod */,
-				E8644AE79B42D7ECBFD28927E727815A /* Support Files */,
+				16BD0CBEFDA9361FDBD74E5E3C1C103E /* LICENSE */,
+				FC2F218EB79FCF617216A9B49974176E /* README.md */,
+				FE2D6581275397E60B29504C456B5C7C /* WDUILib.podspec */,
 			);
-			name = WDUILib;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FE305E8E73E98D8CAF3641F9D399623E /* Development Pods */,
+				F35FA332229375620CD26DC697E26532 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				AF9C0FFB5ACB86B652C9BE1490D2A5B3 /* Products */,
@@ -313,19 +323,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E8644AE79B42D7ECBFD28927E727815A /* Support Files */ = {
+		F35FA332229375620CD26DC697E26532 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05F9BD1F4EBA20B1F0089CF0B0F97BAC /* WDUILib.modulemap */,
-				60116AD8DDF221D1F0445183A82DA3D4 /* WDUILib-dummy.m */,
-				A1B4B1170DF8312D86C076987963E8E9 /* WDUILib-Info.plist */,
-				AB6EB935A39294F66095D3198A2CFD4C /* WDUILib-prefix.pch */,
-				7B1F12E1DF363EFE040C8E19C64B94D7 /* WDUILib-umbrella.h */,
-				97B269E3141454D1A2F315672B8BA65F /* WDUILib.debug.xcconfig */,
-				0994831F715C60753D561A3E8F4769B0 /* WDUILib.release.xcconfig */,
+				FA988319B2D0AEC0C7FA77D8A7B3AD62 /* WDUILib */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WDUILib";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FA988319B2D0AEC0C7FA77D8A7B3AD62 /* WDUILib */ = {
+			isa = PBXGroup;
+			children = (
+				6FD0D76F23A465176F06886DCE429889 /* WDEmptyTableView.h */,
+				7C5A7844230BA75589244636FEDC2F5D /* WDEmptyTableView.m */,
+				F1BAC5823AF43722ACCDF9913664047D /* WDEmptyTableView.xib */,
+				9493E10860609F265A68572D90CDDD17 /* WDLinker.h */,
+				3E4DE329548E9477B811FC1FF9CFFA60 /* WDLinker.m */,
+				5ECCDB1BE55E86ECF8F20749F76914D7 /* WDPrivateRepoLinkTest.h */,
+				3279CC589DE579B19CAE18084C898BC4 /* WDPrivateRepoLinkTest.m */,
+				C624448802B0F98EBF1D883F79A67333 /* Pod */,
+				13A196E94C8002302F86EE64416BAA64 /* Support Files */,
+			);
+			name = WDUILib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
@@ -356,23 +376,17 @@
 			path = "Target Support Files/Pods-WDUILib_Tests";
 			sourceTree = "<group>";
 		};
-		FE305E8E73E98D8CAF3641F9D399623E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C2A00EE9905D74A43DBC9585E99A7DCE /* WDUILib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B642B7DA308F7C1E35B56D4B88EBA510 /* Headers */ = {
+		1261B05B50B7A88AF982037224D31EE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529E00109AB28F8CA6AFFFA0CD7FAAD8 /* WDEmptyTableView.h in Headers */,
-				92845576389451AA4DC23AC3FFC3EBC4 /* WDUILib-umbrella.h in Headers */,
+				83A1DC522C291236012E7F0A7754BC64 /* WDEmptyTableView.h in Headers */,
+				E7DC3FE0EC1D350A0E2856FF9DB3C4DE /* WDLinker.h in Headers */,
+				23E9F281A21D2151AF9F4DF96A9B6A4B /* WDPrivateRepoLinkTest.h in Headers */,
+				498BBDC5A9FFC9678B64636493A456C7 /* WDUILib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +436,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				76B25F07A24574DEF043714E1510A120 /* PBXTargetDependency */,
+				B827BE9A56E860F66C959CB89F2749B6 /* PBXTargetDependency */,
 			);
 			name = "Pods-WDUILib_Example";
 			productName = Pods_WDUILib_Example;
@@ -431,12 +445,12 @@
 		};
 		73722B28E682F3F4F9D82C4007641718 /* WDUILib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85B857B37A5CCB17B080271270870E15 /* Build configuration list for PBXNativeTarget "WDUILib" */;
+			buildConfigurationList = A6D76F56DEAE4861C0551E4B38201E65 /* Build configuration list for PBXNativeTarget "WDUILib" */;
 			buildPhases = (
-				B642B7DA308F7C1E35B56D4B88EBA510 /* Headers */,
-				E3288D666294EE2F39F05EDB1645310E /* Sources */,
-				23ED9ABFF97B0060FF9C9E65A8609252 /* Frameworks */,
-				B2B5FFAE0445531A1A53769BBE6AFB29 /* Resources */,
+				1261B05B50B7A88AF982037224D31EE8 /* Headers */,
+				46F60A06E3F1B3C06197CE9972617557 /* Sources */,
+				6487E1A50E3154831F0D4E3E59A0EC57 /* Frameworks */,
+				293BEA5F5B64FE1D1B1480F165C4C26A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -477,8 +491,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				ADFFCC05E768ABD8385E41DFAF62CDF8 /* PBXTargetDependency */,
-				23A8759E492CAB8C7FF1569EFDEAFCCC /* PBXTargetDependency */,
+				C06EDB9697D18AD2C686C26983EB75A5 /* PBXTargetDependency */,
+				FA41AD739E96E98A5BCB9ADB8DE0BE41 /* PBXTargetDependency */,
 			);
 			name = "Pods-WDUILib_Tests";
 			productName = Pods_WDUILib_Tests;
@@ -523,7 +537,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2B5FFAE0445531A1A53769BBE6AFB29 /* Resources */ = {
+		293BEA5F5B64FE1D1B1480F165C4C26A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -555,21 +569,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46F60A06E3F1B3C06197CE9972617557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B970230427BF05AF936FFE248EFF5 /* WDEmptyTableView.m in Sources */,
+				E2A210327B078F9020E8A5E920CD37B4 /* WDEmptyTableView.xib in Sources */,
+				DD95FCFD0712E295EEE3E98D3E3A034D /* WDLinker.m in Sources */,
+				26D5F8E75B6C31BD00AC0A6FEACB6295 /* WDPrivateRepoLinkTest.m in Sources */,
+				4DA1CDD99BECAE61DD1761246D8C8B17 /* WDUILib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85D11D51E67C419EFEF40887518AD21F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				80017BC95980681D768FA7EA1BC57F47 /* Pods-WDUILib_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3288D666294EE2F39F05EDB1645310E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				127D843C788C82E252B1F60AF302AF2F /* WDEmptyTableView.m in Sources */,
-				F5B4C999AAA1E4912C5F1A4366F749BF /* WDEmptyTableView.xib in Sources */,
-				511CFF460F193126EA831F8BBD53362E /* WDUILib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,23 +608,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23A8759E492CAB8C7FF1569EFDEAFCCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WDUILib_Example";
-			target = 5AEAA609520CD14DD2FCED6CA4C467BC /* Pods-WDUILib_Example */;
-			targetProxy = 9B4114090FE40644787F484744CE100A /* PBXContainerItemProxy */;
-		};
-		76B25F07A24574DEF043714E1510A120 /* PBXTargetDependency */ = {
+		B827BE9A56E860F66C959CB89F2749B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WDUILib;
 			target = 73722B28E682F3F4F9D82C4007641718 /* WDUILib */;
-			targetProxy = 0F7A28952FB227BE3CAB44116C8C043A /* PBXContainerItemProxy */;
+			targetProxy = 43626A54AD8FFF6D8BED792AFEA3F823 /* PBXContainerItemProxy */;
 		};
-		ADFFCC05E768ABD8385E41DFAF62CDF8 /* PBXTargetDependency */ = {
+		C06EDB9697D18AD2C686C26983EB75A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 6A03A75267D83263CA40E7B0552DAF9D /* PBXContainerItemProxy */;
+			targetProxy = 0754399B84C89AB2DED3F980006E6B35 /* PBXContainerItemProxy */;
+		};
+		FA41AD739E96E98A5BCB9ADB8DE0BE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WDUILib_Example";
+			target = 5AEAA609520CD14DD2FCED6CA4C467BC /* Pods-WDUILib_Example */;
+			targetProxy = F13F4DAF0B90F0A404ED5BD62BBECEE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -711,37 +727,6 @@
 			};
 			name = Debug;
 		};
-		63E711C99D12F394B54ADAA968E3617B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97B269E3141454D1A2F315672B8BA65F /* WDUILib.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WDUILib/WDUILib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WDUILib/WDUILib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WDUILib/WDUILib.modulemap";
-				PRODUCT_MODULE_NAME = WDUILib;
-				PRODUCT_NAME = WDUILib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -833,6 +818,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B6DD2C8BE94FC25FE8C08AD22DA2BBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6088CA4E99B261F12D84830F9021E9AB /* WDUILib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDUILib/WDUILib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDUILib/WDUILib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDUILib/WDUILib.modulemap";
+				PRODUCT_MODULE_NAME = WDUILib;
+				PRODUCT_NAME = WDUILib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -967,9 +984,9 @@
 			};
 			name = Release;
 		};
-		F637E53B71ECE11ADD9E975827DAB061 /* Release */ = {
+		E9FFDCAECCE5BA4DB70C531265BAF5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0994831F715C60753D561A3E8F4769B0 /* WDUILib.release.xcconfig */;
+			baseConfigurationReference = 504FF8F26BC3B28588322231C766B28F /* WDUILib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -993,11 +1010,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1038,11 +1054,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85B857B37A5CCB17B080271270870E15 /* Build configuration list for PBXNativeTarget "WDUILib" */ = {
+		A6D76F56DEAE4861C0551E4B38201E65 /* Build configuration list for PBXNativeTarget "WDUILib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E711C99D12F394B54ADAA968E3617B /* Debug */,
-				F637E53B71ECE11ADD9E975827DAB061 /* Release */,
+				E9FFDCAECCE5BA4DB70C531265BAF5DA /* Debug */,
+				B6DD2C8BE94FC25FE8C08AD22DA2BBE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

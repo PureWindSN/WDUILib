@@ -11,6 +11,8 @@
 #endif
 
 #import "WDEmptyTableView.h"
+#import "WDLinker.h"
+#import "WDPrivateRepoLinkTest.h"
 
 FOUNDATION_EXPORT double WDUILibVersionNumber;
 FOUNDATION_EXPORT const unsigned char WDUILibVersionString[];
