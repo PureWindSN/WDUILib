@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "WDEmptyTableView.h"
-#import "WDLinker.h"
-#import "WDPrivateRepoLinkTest.h"
+#import "UITableView+Wind.h"
+#import "WDUILib.h"
+#import "WindEmptyView.h"
 
 FOUNDATION_EXPORT double WDUILibVersionNumber;
 FOUNDATION_EXPORT const unsigned char WDUILibVersionString[];
