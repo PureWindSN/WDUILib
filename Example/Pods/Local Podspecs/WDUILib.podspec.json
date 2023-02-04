@@ -1,6 +1,6 @@
 {
   "name": "WDUILib",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "summary": "A common ui lib of iOS platform.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PureWindSN/WDUILib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/PureWindSN/WDUILib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "11.0"

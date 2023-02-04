@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UICollectionView+Wind.h"
 #import "UITableView+Wind.h"
 #import "WDUILib.h"
 #import "WindEmptyView.h"

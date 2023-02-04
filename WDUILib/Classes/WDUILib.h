@@ -9,4 +9,6 @@
 #define WDUILib_h
 
 #import "UITableView+Wind.h"
+#import "UICollectionView+Wind.h"
+#import "WindEmptyView.h"
 #endif /* WDUILib_h */
