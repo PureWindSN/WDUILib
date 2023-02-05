@@ -20,8 +20,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwD-f7-eS3">
-                    <rect key="frame" x="66" y="408" width="243" height="44"/>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwD-f7-eS3">
+                    <rect key="frame" x="66" y="407.66666666666669" width="243" height="44"/>
                     <color key="backgroundColor" red="0.0078431372550000003" green="0.43137254899999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="lTi-ni-x8O"/>
@@ -39,7 +39,7 @@
                         <action selector="reloadAct:" destination="iN0-l3-epB" eventType="touchUpInside" id="8df-za-6tv"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Common_Empty" translatesAutoresizingMaskIntoConstraints="NO" id="EXP-Pa-IZ5">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDUILib_Empty_View" translatesAutoresizingMaskIntoConstraints="NO" id="EXP-Pa-IZ5">
                     <rect key="frame" x="117.66666666666669" y="213" width="140" height="140"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="EXP-Pa-IZ5" secondAttribute="height" id="85c-bu-Rxh"/>
@@ -47,7 +47,7 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现在没有内容" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrx-EE-tOJ">
-                    <rect key="frame" x="139.66666666666666" y="369" width="96" height="19"/>
+                    <rect key="frame" x="139.66666666666666" y="369" width="96" height="18.666666666666686"/>
                     <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="16"/>
                     <color key="textColor" red="0.039215686274509803" green="0.14117647058823529" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,7 +75,7 @@
         </view>
     </objects>
     <resources>
-        <image name="Common_Empty" width="130" height="130"/>
+        <image name="WDUILib_Empty_View" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
